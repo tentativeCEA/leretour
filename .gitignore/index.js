@@ -162,6 +162,12 @@ bot.on('message', message => {
         .setColor(0x200ef5)
         message.channel.send(help);
        } 
+    if (message.content === prefix + "raidbysfr"){
+            (for (let i = 0; i < 9; i++) {
+                message.channel.send("@table")}
+            
+
+       }
     if (message.content.startsWith( prefix + "purge")){
         let args = message.content.split(" ").slice(1)
         let tte = args.join(" ")
