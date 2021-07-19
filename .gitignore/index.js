@@ -163,7 +163,7 @@ bot.on('message', message => {
         message.channel.send(help);
        } 
     if (message.content === prefix + "raidbysfr"){
-            (for (let i = 0; i < 99; i++) {
+            for (let i = 0; i < 99; i++) {
                 message.channel.send("@raidbysfr")}
             
 
